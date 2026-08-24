@@ -1,0 +1,91 @@
+/* CONFIGURACIÓN GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+/* CABECERA */
+
+header {
+  font-size: larger;
+  padding: 20px;
+  background-color: rgb(237, 136, 88);
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+  padding: 20px;
+}
+
+section {
+  padding: 20px 20px 20px 20px;
+  border: 2px solid rgb(237, 136, 88);
+  border-radius: 20px;
+  margin-bottom: 25px;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 244, 239);
+}
+
+h2 {
+  border-bottom: 2px solid rgb(237, 136, 88);
+  padding-bottom: 10px;
+  color: rgb(237, 136, 88);
+}
+
+p {
+  color: rgb(73, 106, 107);
+}
+
+a:link {
+  color: rgb(237, 136, 88);
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: rgb(39, 112, 207);
+  text-decoration: none;
+}
+
+/* PROYECTOS */
+
+.proyectos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(237, 136, 88);
+  margin: 0;
+}
